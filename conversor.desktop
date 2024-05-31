@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Conversor de imagem para array
+Exec=/usr/bin/conversor %f
+Icon=/usr/share/icons/icon_converter.png
+MimeType=image/png;image/bmp;
+

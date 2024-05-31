@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
   char array_name[100];
   strncpy(c_file_name, file_name, strlen(file_name) - 4);
   strncpy(array_name, file_name, strlen(file_name) - 4);
-  strcat(c_file_name, ".c");
+  strcat(c_file_name, ".h");
   FILE *c_fp = fopen(c_file_name, "w");
   if (c_fp == NULL) {
     printf("Error: Could not open file %s\n", c_file_name);
